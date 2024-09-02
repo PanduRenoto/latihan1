@@ -1,12 +1,3 @@
-<?php 
-include "koneksi.php";
-session_start();
-if (isset($_SESSION['status_login']) && $_SESSION['status_login'] === true) {
-    header("Location: home.php");
-    exit();
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
